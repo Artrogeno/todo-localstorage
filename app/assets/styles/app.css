@@ -1,0 +1,71 @@
+.mg-top-nav{
+    margin-top: 65px;
+}
+
+.img-avata{
+    width: 45px;
+    height: 45px;
+}
+.img-avata-middle{
+    width: 32px;
+    height: 32px;
+}
+.img-avata-small{
+    width: 28px;
+    height: 28px;
+}
+.avata-center{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    border: #dbddde 8px solid;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-content{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 5px 0 5px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 18px;
+}
+
+.custom-search-content .list-group {
+    max-height: 300px;
+    overflow-y:scroll; 
+    margin-bottom: 15px;
+    box-shadow: 1px 0px 1px #dcdcdc;
+    border-radius: 6px;
+}

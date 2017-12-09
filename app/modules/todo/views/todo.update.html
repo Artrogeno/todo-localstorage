@@ -1,0 +1,30 @@
+<div class="page-header">
+    <h1 ng-bind-html="vm.pageTitle"></h1>
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-lg-8">
+
+        <form class="form-horizontal" name="formUser" novalidate>
+            <div class="col-md-12">
+                <img ng-src="{{ vm.user.avatar }}" class="img-responsive img-circle avata-center" alt="avata" />
+            </div>
+            <div class="form-group">
+                <input type="text" name="id" ng-model="vm.user.id" class="form-control" placeholder="id" disabled/>
+            </div>
+            <div class="form-group">
+                <input type="text" name="login" ng-model="vm.user.login" class="form-control" required placeholder="Login"/>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">https:// or http://</span>
+                    <input type="text" name="gitUri" ng-model="vm.user.gitUri" class="form-control" aria-describedby="basic-addon3" placeholder="gitUri"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-success" ng-click="vm.updateUser();" ng-disabled="formUser.$invalid">Atualizar</button>
+            </div>
+        </form>
+
+    </div>
+</div>
